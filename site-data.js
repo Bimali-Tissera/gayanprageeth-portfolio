@@ -21,6 +21,7 @@ const siteData = {
       id: "row-portrait-1",
       type: "image-grid",
       columns: 3,
+      aspectRatio: "4 / 5",
       images: [
         { src: "assets/images/007.jpg.jpeg", alt: "", title: "Desire", details: "2013 | Acrylic on canvas | 91.5 x 122.5 cm" },
         { src: "assets/images/001.jpg.jpeg", alt: "", title: "Mood", details: "2013 | Acrylic on canvas | 85.5 x 100 cm" },
@@ -33,6 +34,7 @@ const siteData = {
       id: "row-portrait-2",
       type: "image-grid",
       columns: 3,
+      aspectRatio: "5 / 6",
       images: [
         { src: "assets/images/002.jpg.jpeg", alt: "", title: "The Primrose Path II", details: "2013 | Digital print and acrylic on canvas | 125.5 x 150 cm" },
         { src: "assets/images/0011.jpg.jpeg", alt: "", title: "Stay on the Sky", details: "2012 | Charcoal on board | 48 x 68 cm" },
@@ -45,6 +47,7 @@ const siteData = {
       id: "row-square",
       type: "image-grid",
       columns: 2,
+      aspectRatio: "1 / 1",
       images: [
         { src: "assets/images/003.jpg.jpeg", alt: "", title: "Desire", details: "2013 | Acrylic on canvas | 91.5 x 91.5 cm" },
         { src: "assets/images/006.jpg.jpeg", alt: "", title: "Desire", details: "2013 | Acrylic on canvas | 91.5 x 91.5 cm" }
@@ -56,6 +59,7 @@ const siteData = {
       id: "row-wide",
       type: "image-grid",
       columns: 1,
+      aspectRatio: "2 / 1",
       images: [
         { src: "assets/images/005.jpg.jpeg", alt: "", title: "Unexpired Black Clouds", details: "2013 | Mixed media on canvas | 80.5 x 150 cm" }
       ]
@@ -66,6 +70,7 @@ const siteData = {
       id: "row-landscape-1",
       type: "image-grid",
       columns: 3,
+      aspectRatio: "5 / 4",
       images: [
         { src: "assets/images/A-28.jpg.jpeg", alt: "" },
         { src: "assets/images/A-30.jpg.jpeg", alt: "" },
@@ -78,6 +83,7 @@ const siteData = {
       id: "row-landscape-wide",
       type: "image-grid",
       columns: 2,
+      aspectRatio: "8 / 5",
       images: [
         { src: "assets/images/A-35.jpg.jpeg", alt: "", title: "Paradox", details: "2010 | Mixed media on paper | 68 x 40 inches" },
         { src: "assets/images/A-46.jpg.jpeg", alt: "", title: "Pleasure of Life", details: "2012 | Acrylic on canvas | 30 x 24 inch x 3" }
@@ -89,6 +95,7 @@ const siteData = {
       id: "row-landscape-2",
       type: "image-grid",
       columns: 3,
+      aspectRatio: "4 / 3",
       images: [
         { src: "assets/images/A-7.jpg.jpeg", alt: "", title: "Des-o-late Landscape", details: "2011 | Acrylic on canvas | 100 x 100 cm" },
         { src: "assets/images/A-6.jpg.jpeg", alt: "", title: "Everything Is Not Lost", details: "2011 | Acrylic on canvas | 100 x 100 cm" },
@@ -101,6 +108,7 @@ const siteData = {
       id: "row-landscape-3",
       type: "image-grid",
       columns: 3,
+      aspectRatio: "4 / 3",
       images: [
         { src: "assets/images/A-21.jpg.jpeg", alt: "", title: "Change of Tension", details: "2011 | Acrylic on canvas | 12 x 12 inch" },
         { src: "assets/images/A-1 copy.jpg.jpeg", alt: "", title: "Paradox", details: "2010 | Mixed media on paper | 12 x 12 inch" },
