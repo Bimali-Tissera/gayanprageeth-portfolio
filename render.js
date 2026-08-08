@@ -108,6 +108,12 @@
       if (img.src) {
         itemChildren.push(el("img", { src: img.src, alt: img.alt || "", loading: "lazy" }));
       }
+      if (img.title) {
+        itemChildren.push(el("p", { className: "artwork-title" }, img.title));
+      }
+      if (img.details) {
+        itemChildren.push(el("p", { className: "artwork-details" }, img.details));
+      }
       if (img.caption) {
         itemChildren.push(el("p", { className: "caption" }, img.caption));
       }

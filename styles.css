@@ -53,6 +53,10 @@ h1, h2, h3 {
   padding: 0 1.5rem;
 }
 
+.site-content {
+  padding-top: 5rem;
+}
+
 /* ── Masthead ──────────────────────────────────────────── */
 
 .masthead {
@@ -181,7 +185,7 @@ h1, h2, h3 {
 /* ── Sections ──────────────────────────────────────────── */
 
 .section {
-  margin-bottom: 80px;
+  margin-bottom: 4rem;
 }
 
 .section--image {
@@ -218,17 +222,40 @@ h1, h2, h3 {
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .image-grid__item {
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.artwork-title {
+  font-size: 0.85rem;
+  font-style: italic;
+  font-weight: 400;
+  color: #222;
+  margin-top: 0.6rem;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.artwork-details {
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: #555;
+  margin-top: 0.15rem;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .image-grid__item img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
+  overflow: hidden;
   transition: transform 0.3s ease;
 }
 
