@@ -70,7 +70,7 @@ const siteData = {
       id: "row-pleasure-of-life",
       type: "image-grid",
       columns: 1,
-      aspectRatio: "8 / 5",
+      aspectRatio: "8 / 3",
       images: [
         { src: "assets/images/A-46.jpg.jpeg", alt: "", title: "Pleasure of Life", details: "2012 | Acrylic on canvas | 30 x 24 inch x 3" }
       ]
@@ -160,6 +160,42 @@ const siteData = {
       aspectRatio: "10 / 7",
       images: [
         { src: "assets/images/painting 10 copy.jpg.jpeg", alt: "" }
+      ]
+    },
+
+    // ── Since 1983 – Portrait (1600x2070) ──
+    {
+      id: "row-since1983-1",
+      type: "image-grid",
+      heading: "Since 1983",
+      columns: 3,
+      aspectRatio: "4 / 5",
+      images: [
+        { src: "assets/images/1.jpg.jpeg", alt: "" },
+        { src: "assets/images/2.jpg.jpeg", alt: "" },
+        { src: "assets/images/13.jpg.jpeg", alt: "" }
+      ]
+    },
+
+    {
+      id: "row-since1983-2",
+      type: "image-grid",
+      columns: 3,
+      aspectRatio: "4 / 5",
+      images: [
+        { src: "assets/images/12.jpg.jpeg", alt: "" },
+        { src: "assets/images/15.jpg.jpeg", alt: "" },
+        { src: "assets/images/16.jpg.jpeg", alt: "" }
+      ]
+    },
+
+    {
+      id: "row-since1983-3",
+      type: "image-grid",
+      columns: 1,
+      aspectRatio: "2 / 3",
+      images: [
+        { src: "assets/images/10.jpg.jpeg", alt: "" }
       ]
     }
 
