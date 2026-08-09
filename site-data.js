@@ -134,9 +134,9 @@ const siteData = {
       columns: 3,
       aspectRatio: "5 / 7",
       images: [
-        { src: "assets/images/painting 02 copy.jpg.jpeg", alt: "" },
-        { src: "assets/images/painting 05 copy.jpg.jpeg", alt: "" },
-        { src: "assets/images/painting 06 copy.jpg.jpeg", alt: "" }
+        { src: "assets/images/painting 02 copy.jpg.jpeg", alt: "", title: "What are trying to close?, 2015", details: "Acrylic on canvas\n101.5 X 152.5 cm" },
+        { src: "assets/images/painting 05 copy.jpg.jpeg", alt: "", title: "Diya-wanna?, 2015", details: "Acrylic on canvas\n122 X 145 cm" },
+        { src: "assets/images/painting 06 copy.jpg.jpeg", alt: "", title: "Primrose path II, 2015", details: "Acrylic on canvas\n125.5 X 145.5 cm" }
       ]
     },
 
@@ -146,9 +146,9 @@ const siteData = {
       columns: 3,
       aspectRatio: "5 / 7",
       images: [
-        { src: "assets/images/painting 07 copy.jpg.jpeg", alt: "" },
-        { src: "assets/images/painting 11.jpg.jpeg", alt: "" },
-        { src: "assets/images/painting 12.jpg.jpeg", alt: "" }
+        { src: "assets/images/painting 07 copy.jpg.jpeg", alt: "", title: "Passion, 2015", details: "Acrylic on canvas\n122 X 145 cm" },
+        { src: "assets/images/painting 11.jpg.jpeg", alt: "", title: "Love and passion, 2015", details: "Acrylic on canvas\n122 X 140 cm" },
+        { src: "assets/images/painting 12.jpg.jpeg", alt: "", title: "Reflections of passion, 2015", details: "Acrylic on canvas\n122 X 140 cm" }
       ]
     },
 
@@ -159,7 +159,7 @@ const siteData = {
       columns: 1,
       aspectRatio: "10 / 7",
       images: [
-        { src: "assets/images/painting 10 copy.jpg.jpeg", alt: "" }
+        { src: "assets/images/painting 10 copy.jpg.jpeg", alt: "", title: "Floting rock, 2015", details: "Acrylic on canvas\n244 X 122cm" }
       ]
     },
 
@@ -186,8 +186,8 @@ const siteData = {
       columns: 2,
       aspectRatio: "4 / 5",
       images: [
-        { src: "assets/images/1.jpg.jpeg", alt: "" },
-        { src: "assets/images/2.jpg.jpeg", alt: "" }
+        { src: "assets/images/1.jpg.jpeg", alt: "", title: "Since 1983, 2016", details: "Mixed media on canvas\n140 X 117 cm" },
+        { src: "assets/images/2.jpg.jpeg", alt: "", title: "Since 1983, 2016", details: "Mixed media on canvas\n92 X 92 cm" }
       ]
     },
 
@@ -198,9 +198,9 @@ const siteData = {
       columns: 3,
       aspectRatio: "4 / 5",
       images: [
-        { src: "assets/images/10.jpg.jpeg", alt: "" },
-        { src: "assets/images/12.jpg.jpeg", alt: "" },
-        { src: "assets/images/13.jpg.jpeg", alt: "" }
+        { src: "assets/images/10.jpg.jpeg", alt: "", title: "Since 1983, 2016", details: "Mixed media on steel bucket\n43X33X28 cm" },
+        { src: "assets/images/12.jpg.jpeg", alt: "", title: "Since 1983, 2016", details: "Mixed media on steel bucket\n40X32X25 cm" },
+        { src: "assets/images/13.jpg.jpeg", alt: "", title: "Since 1983, 2016", details: "Mixed media on steel bucket\n38X30X23 cm" }
       ]
     },
 
@@ -211,7 +211,7 @@ const siteData = {
       columns: 1,
       aspectRatio: "4 / 5",
       images: [
-        { src: "assets/images/15.jpg.jpeg", alt: "", width: "45%" }
+        { src: "assets/images/15.jpg.jpeg", alt: "", width: "45%", title: "Since 1983, 2016", details: "Mixed media on linen canvas\n122X90 cm" }
       ]
     },
 
@@ -222,7 +222,7 @@ const siteData = {
       columns: 1,
       aspectRatio: "4 / 5",
       images: [
-        { src: "assets/images/16.jpg.jpeg", alt: "" }
+        { src: "assets/images/16.jpg.jpeg", alt: "", title: "Since 1983, 2016", details: "Mixed media on canvas\n150X244cm" }
       ]
     },
 
