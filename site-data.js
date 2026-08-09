@@ -239,8 +239,8 @@ const siteData = {
       type: "image-grid",
       columns: 2,
       images: [
-        { src: "assets/images/Apperceiving1.jpg", alt: "" },
-        { src: "assets/images/Apperceiving2.jpg", alt: "" }
+        { src: "assets/images/Apperceiving1.jpg", alt: "", title: "Apperceiving 1983 III, 2017", details: "Japanese Ink on Rice Paper on Canvas\n91.5cm x 77cm" },
+        { src: "assets/images/Apperceiving2.jpg", alt: "", title: "Apperceiving 1983 IV, 2017", details: "Japanese Ink on Rice Paper on Canvas\n91 x 77 cm" }
       ]
     },
     {
@@ -248,8 +248,8 @@ const siteData = {
       type: "image-grid",
       columns: 2,
       images: [
-        { src: "assets/images/Apperceiving3.jpg", alt: "" },
-        { src: "assets/images/Apperceiving4.jpg", alt: "" }
+        { src: "assets/images/Apperceiving3.jpg", alt: "", title: "Apperceiving 1983 V, 2017", details: "Japanese Ink on Rice Paper on Canvas\n91.5cm x 77cm" },
+        { src: "assets/images/Apperceiving4.jpg", alt: "", title: "Apperceiving 1983 VII, 2017", details: "Japanese Ink on Rice Paper on Canvas\n122cm x 91cm" }
       ]
     }
 

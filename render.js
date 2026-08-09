@@ -120,7 +120,12 @@
         itemChildren.push(el("p", { className: "artwork-title" }, img.title));
       }
       if (img.details) {
-        itemChildren.push(el("p", { className: "artwork-details" }, img.details));
+        var detailEl = el("p", { className: "artwork-details" });
+        img.details.split("\n").forEach(function (line, i, arr) {
+          detailEl.appendChild(document.createTextNode(line));
+          if (i < arr.length - 1) detailEl.appendChild(document.createElement("br"));
+        });
+        itemChildren.push(detailEl);
       }
       if (img.caption) {
         itemChildren.push(el("p", { className: "caption" }, img.caption));
