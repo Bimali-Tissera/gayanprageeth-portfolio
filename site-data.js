@@ -65,6 +65,17 @@ const siteData = {
       ]
     },
 
+    // ── Pleasure of Life ──
+    {
+      id: "row-pleasure-of-life",
+      type: "image-grid",
+      columns: 1,
+      aspectRatio: "8 / 5",
+      images: [
+        { src: "assets/images/A-46.jpg.jpeg", alt: "", title: "Pleasure of Life", details: "2012 | Acrylic on canvas | 30 x 24 inch x 3" }
+      ]
+    },
+
     // ── Landscape ~1.25 ──
     {
       id: "row-landscape-1",
@@ -78,15 +89,14 @@ const siteData = {
       ]
     },
 
-    // ── Wide landscape ~1.55-1.71 ──
+    // ── Wide landscape ──
     {
       id: "row-landscape-wide",
       type: "image-grid",
-      columns: 2,
+      columns: 1,
       aspectRatio: "8 / 5",
       images: [
-        { src: "assets/images/A-35.jpg.jpeg", alt: "", title: "Paradox", details: "2010 | Mixed media on paper | 68 x 40 inches" },
-        { src: "assets/images/A-46.jpg.jpeg", alt: "", title: "Pleasure of Life", details: "2012 | Acrylic on canvas | 30 x 24 inch x 3" }
+        { src: "assets/images/A-35.jpg.jpeg", alt: "", title: "Paradox", details: "2010 | Mixed media on paper | 68 x 40 inches" }
       ]
     },
 
@@ -113,6 +123,43 @@ const siteData = {
         { src: "assets/images/A-21.jpg.jpeg", alt: "", title: "Change of Tension", details: "2011 | Acrylic on canvas | 12 x 12 inch" },
         { src: "assets/images/A-1 copy.jpg.jpeg", alt: "", title: "Paradox", details: "2010 | Mixed media on paper | 12 x 12 inch" },
         { src: "assets/images/A-17.jpg.jpeg", alt: "", title: "Change of Tension - II", details: "2010 | Acrylic on canvas | 30 x 30 cm" }
+      ]
+    },
+
+    // ── Extravagance – Portrait paintings (3000x4200) ──
+    {
+      id: "row-extravagance-1",
+      type: "image-grid",
+      heading: "Extravagance",
+      columns: 3,
+      aspectRatio: "5 / 7",
+      images: [
+        { src: "assets/images/painting 02 copy.jpg.jpeg", alt: "" },
+        { src: "assets/images/painting 05 copy.jpg.jpeg", alt: "" },
+        { src: "assets/images/painting 06 copy.jpg.jpeg", alt: "" }
+      ]
+    },
+
+    {
+      id: "row-extravagance-2",
+      type: "image-grid",
+      columns: 3,
+      aspectRatio: "5 / 7",
+      images: [
+        { src: "assets/images/painting 07 copy.jpg.jpeg", alt: "" },
+        { src: "assets/images/painting 11.jpg.jpeg", alt: "" },
+        { src: "assets/images/painting 12.jpg.jpeg", alt: "" }
+      ]
+    },
+
+    // ── Extravagance – Landscape painting (6000x4200) ──
+    {
+      id: "row-extravagance-3",
+      type: "image-grid",
+      columns: 1,
+      aspectRatio: "10 / 7",
+      images: [
+        { src: "assets/images/painting 10 copy.jpg.jpeg", alt: "" }
       ]
     }
 
