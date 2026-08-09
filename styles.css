@@ -273,6 +273,10 @@ h1, h2, h3 {
   text-align: center;
 }
 
+.section--text.section--heading-only {
+  padding-bottom: 0;
+}
+
 .section--text p {
   margin-bottom: 1rem;
   color: #222;

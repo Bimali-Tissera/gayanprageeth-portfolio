@@ -163,39 +163,93 @@ const siteData = {
       ]
     },
 
-    // ── Since 1983 – Portrait (1600x2070) ──
+    // ── Since 1983 – Title ──
     {
-      id: "row-since1983-1",
-      type: "image-grid",
-      heading: "Since 1983",
-      columns: 3,
-      aspectRatio: "4 / 5",
-      images: [
-        { src: "assets/images/1.jpg.jpeg", alt: "" },
-        { src: "assets/images/2.jpg.jpeg", alt: "" },
-        { src: "assets/images/13.jpg.jpeg", alt: "" }
+      id: "since1983-heading",
+      type: "text",
+      heading: "Since 1983"
+    },
+
+    // ── Since 1983 – Description ──
+    {
+      id: "since1983-text",
+      type: "text",
+      paragraphs: [
+        "The artist reflects on the ethnic conflict that reached a boiling point on the 23rd of July 1983, commonly known as Black July. The bucket is a recurring motif in this body of work. During these riots, Tamils were tested and identified by their pronunciation. They were often shown a bucket and asked to name it. Tamils finding it difficult to pronounce Baldiya (word for bucket in Sinhala) pronounced it as Waldiya. This mispronunciation would confirm the suspicions of the interrogators and the person in question would be attacked."
       ]
     },
 
+    // ── Since 1983 – Triangle pattern canvases (1600x2070) ──
+    {
+      id: "row-since1983-1",
+      type: "image-grid",
+      columns: 2,
+      aspectRatio: "4 / 5",
+      images: [
+        { src: "assets/images/1.jpg.jpeg", alt: "" },
+        { src: "assets/images/2.jpg.jpeg", alt: "" }
+      ]
+    },
+
+    // ── Since 1983 – Bucket sculptures ──
     {
       id: "row-since1983-2",
       type: "image-grid",
       columns: 3,
       aspectRatio: "4 / 5",
       images: [
+        { src: "assets/images/10.jpg.jpeg", alt: "" },
         { src: "assets/images/12.jpg.jpeg", alt: "" },
-        { src: "assets/images/15.jpg.jpeg", alt: "" },
-        { src: "assets/images/16.jpg.jpeg", alt: "" }
+        { src: "assets/images/13.jpg.jpeg", alt: "" }
       ]
     },
 
+    // ── Since 1983 – Bucket painting ──
     {
       id: "row-since1983-3",
       type: "image-grid",
       columns: 1,
-      aspectRatio: "2 / 3",
+      aspectRatio: "4 / 5",
       images: [
-        { src: "assets/images/10.jpg.jpeg", alt: "" }
+        { src: "assets/images/15.jpg.jpeg", alt: "", width: "45%" }
+      ]
+    },
+
+    // ── Since 1983 – Landscape canvas ──
+    {
+      id: "row-since1983-4",
+      type: "image-grid",
+      columns: 1,
+      aspectRatio: "4 / 5",
+      images: [
+        { src: "assets/images/16.jpg.jpeg", alt: "" }
+      ]
+    },
+
+    // ── Apperceiving 1983 – Title ──
+    {
+      id: "apperceiving-heading",
+      type: "text",
+      heading: "Apperceiving 1983"
+    },
+
+    // ── Apperceiving 1983 – Images ──
+    {
+      id: "row-apperceiving-1",
+      type: "image-grid",
+      columns: 2,
+      images: [
+        { src: "assets/images/Apperceiving1.jpg", alt: "" },
+        { src: "assets/images/Apperceiving2.jpg", alt: "" }
+      ]
+    },
+    {
+      id: "row-apperceiving-2",
+      type: "image-grid",
+      columns: 2,
+      images: [
+        { src: "assets/images/Apperceiving3.jpg", alt: "" },
+        { src: "assets/images/Apperceiving4.jpg", alt: "" }
       ]
     }
 

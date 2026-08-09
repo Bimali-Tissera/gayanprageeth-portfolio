@@ -91,7 +91,9 @@
       });
     }
     if (children.length === 0) return null;
-    return el("section", { className: "section section--text", id: s.id }, children);
+    var cls = "section section--text";
+    if (s.heading && !s.paragraphs) cls += " section--heading-only";
+    return el("section", { className: cls, id: s.id }, children);
   }
 
   function renderImageGrid(s) {
@@ -106,7 +108,13 @@
     s.images.forEach(function (img) {
       var itemChildren = [];
       if (img.src) {
-        itemChildren.push(el("img", { src: img.src, alt: img.alt || "", loading: "lazy" }));
+        var imgNode = el("img", { src: img.src, alt: img.alt || "", loading: "lazy" });
+        if (img.width) {
+          imgNode.style.width = img.width;
+          imgNode.style.display = "block";
+          imgNode.style.margin = "0 auto";
+        }
+        itemChildren.push(imgNode);
       }
       if (img.title) {
         itemChildren.push(el("p", { className: "artwork-title" }, img.title));
