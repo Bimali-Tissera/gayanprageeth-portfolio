@@ -251,6 +251,106 @@ const siteData = {
         { src: "assets/images/Apperceiving3.jpg", alt: "", title: "Apperceiving 1983 V, 2017", details: "Japanese Ink on Rice Paper on Canvas\n91.5cm x 77cm" },
         { src: "assets/images/Apperceiving4.jpg", alt: "", title: "Apperceiving 1983 VII, 2017", details: "Japanese Ink on Rice Paper on Canvas\n122cm x 91cm" }
       ]
+    },
+
+    // ── Eyes Only – Title ──
+    {
+      id: "eyesonly-heading",
+      type: "text",
+      heading: "Eyes Only"
+    },
+
+    // ── Eyes Only – Portrait row 1 ──
+    {
+      id: "row-eyesonly-1",
+      type: "image-grid",
+      columns: 3,
+      images: [
+        { src: "assets/images/EyesOnly1- A DRIED LOTUS SEED POD WITHOT FERTILITY,2020,Acrylic and japaneese ink on rice paper on canvas,100x75 cm.jpg.jpeg", alt: "", title: "A Dried Lotus Seed Pod Withot Fertility, 2020", details: "Acrylic and japaneese ink on rice paper on canvas\n100 x 75 cm" },
+        { src: "assets/images/EyesOnly3-EMPTY HOLES ONLY,2021,Acrylic on canvas,170x122cm.jpg.jpeg", alt: "", title: "Empty Holes Only, 2021", details: "Acrylic on canvas\n170 x 122 cm" },
+        { src: "assets/images/EyesOnly5-JUST FOR MEMORY ,2020,Acrylic and japaneese ink on rice paper on canvas,91x76 cm.jpg.jpeg", alt: "", title: "Just For Memory, 2020", details: "Acrylic and japaneese ink on rice paper on canvas\n91 x 76 cm" }
+      ]
+    },
+
+    // ── Eyes Only – Landscape 1 ──
+    {
+      id: "row-eyesonly-2",
+      type: "image-grid",
+      columns: 1,
+      images: [
+        { src: "assets/images/EyesOnly2 - EMPTY HOLES ARE FILLED WITH SEEDS,2021,Acrylic on canvas,110x170cm.jpg.jpeg", alt: "", title: "Empty Holes Are Filled With Seeds, 2021", details: "Acrylic on canvas\n110 x 170 cm" }
+      ]
+    },
+
+    // ── Eyes Only – Landscape 2 ──
+    {
+      id: "row-eyesonly-3",
+      type: "image-grid",
+      columns: 1,
+      images: [
+        { src: "assets/images/EyesOnly4-FIFTH DREAM,2021,Acrylic on canvas,120x140cm.jpg.jpeg", alt: "", title: "Fifth Dream, 2021", details: "Acrylic on canvas\n120 x 140 cm" }
+      ]
+    },
+
+    // ── Eyes Only – Portrait row 2 ──
+    {
+      id: "row-eyesonly-4",
+      type: "image-grid",
+      columns: 3,
+      images: [
+        { src: "assets/images/EyesOnly6-LOOKING FOR LIONS,2020,Acrylic and japaneese ink on rice paper on canvas,110x85cm.jpg.jpeg", alt: "", title: "Looking For Lions, 2020", details: "Acrylic and japaneese ink on rice paper on canvas\n110 x 85 cm" },
+        { src: "assets/images/EyesOnly7-NOT YOU I WILL ALWAYS II,2021 ,140x110cm,Acrylic on canvas.jpg.jpeg", alt: "", title: "Not You I Will Always II, 2021", details: "Acrylic on canvas\n140 x 110 cm" },
+        { src: "assets/images/EyesOnly8-THE LOTUS CULTIVATION OF THE GREAT OTHER,2020,Acrylic and japaneese ink on rice paper on canas,110x85cm.jpg.jpeg", alt: "", title: "The Lotus Cultivation Of The Great Other, 2020", details: "Acrylic and japaneese ink on rice paper on canas\n110 x 85 cm" }
+      ]
+    },
+
+    // ── Elsiyum – Title ──
+    {
+      id: "elsiyum-heading",
+      type: "text",
+      heading: "Elsiyum"
+    },
+
+    // ── Elsiyum – Portrait row 1 ──
+    {
+      id: "row-elsiyum-1",
+      type: "image-grid",
+      columns: 2,
+      images: [
+        { src: "assets/images/Elsiyum1.webp", alt: "", title: "Inedible II, 2023", details: "Acrylic on Canvas\n81 x 61 cm" },
+        { src: "assets/images/Elsiyum2.webp", alt: "", title: "Inedible III, 2023", details: "Acrylic on Canvas\n81 x 61 cm" }
+      ]
+    },
+
+    // ── Elsiyum – Portrait row 2 ──
+    {
+      id: "row-elsiyum-2",
+      type: "image-grid",
+      columns: 2,
+      images: [
+        { src: "assets/images/Elsiyum3.webp", alt: "", title: "Hope I, 2023", details: "Acrylic on Canvas\n171 x 115 cm" },
+        { src: "assets/images/Elsiyum4.webp", alt: "", title: "Hope II, 2023", details: "Acrylic on Canvas\n171 x 115 cm" }
+      ]
+    },
+
+    // ── Elsiyum – Landscape 1 ──
+    {
+      id: "row-elsiyum-3",
+      type: "image-grid",
+      columns: 1,
+      images: [
+        { src: "assets/images/Elsiyum5.webp", alt: "", title: "Invitation to Hanuman I, 2023", details: "Acrylic on Canvas\n92 x 122 cm" }
+      ]
+    },
+
+    // ── Elsiyum – Landscape 2 ──
+    {
+      id: "row-elsiyum-4",
+      type: "image-grid",
+      columns: 1,
+      images: [
+        { src: "assets/images/Elsiyum6.webp", alt: "", title: "Invitation to Hanuman II, 2023", details: "Acrylic on Canvas\n92 x 122 cm" }
+      ]
     }
 
   ],
