@@ -136,12 +136,44 @@
     return el("section", { className: "section section--image-grid", id: s.id }, children);
   }
 
+  function renderContact(s) {
+    var children = [];
+    if (s.heading) {
+      children.push(el("h3", { className: "section-heading" }, s.heading));
+    }
+    var wrapper = el("div", { className: "contact-layout" });
+
+    if (s.image) {
+      var imgEl = el("img", { src: s.image, alt: s.imageAlt || "", loading: "lazy", className: "contact-photo" });
+      wrapper.appendChild(el("div", { className: "contact-photo-wrap" }, imgEl));
+    }
+
+    if (s.details) {
+      var detailItems = [];
+      s.details.forEach(function (d) {
+        var content = [];
+        content.push(el("span", { className: "contact-label" }, d.label));
+        if (d.href) {
+          content.push(el("a", { href: d.href }, d.value));
+        } else {
+          content.push(document.createTextNode(d.value));
+        }
+        detailItems.push(el("p", { className: "contact-item" }, content));
+      });
+      wrapper.appendChild(el("div", { className: "contact-info" }, detailItems));
+    }
+
+    children.push(wrapper);
+    return el("section", { className: "section section--contact", id: s.id }, children);
+  }
+
   function renderSection(s) {
     switch (s.type) {
       case "image":      return renderImage(s);
       case "image-pair": return renderImagePair(s);
       case "image-grid": return renderImageGrid(s);
       case "text":       return renderText(s);
+      case "contact":    return renderContact(s);
       default:           return null;
     }
   }

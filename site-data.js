@@ -416,6 +416,21 @@ const siteData = {
       images: [
         { src: "assets/images/LifeIsACircus8.jpeg", alt: "" }
       ]
+    },
+
+    // ── Contact ──
+    {
+      id: "contact",
+      type: "contact",
+      heading: "Contact",
+      image: "assets/images/artist-image.jpeg",
+      imageAlt: "Gayan Prageeth",
+      details: [
+        { label: "Address :", value: "2/A, Karunasena Jayalath Mawatha, Pokunuwita, Horana, Sri Lanka" },
+        { label: "Born :", value: "05th November 1980 in Ingiriya" },
+        { label: "E mail :", value: "gayanprageeth@yahoo.com", href: "mailto:gayanprageeth@yahoo.com" },
+        { label: "Mobile :", value: "+94 77 948 3525", href: "tel:+94779483525" }
+      ]
     }
 
   ],
