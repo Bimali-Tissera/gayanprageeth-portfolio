@@ -294,19 +294,20 @@ h1, h2, h3 {
 .section--contact {
   width: 100%;
   text-align: center;
+  margin-top: 4rem;
 }
 
 .contact-layout {
   display: flex;
   align-items: flex-start;
-  gap: 3rem;
+  gap: 5rem;
   max-width: 800px;
   margin: 0 auto;
 }
 
 .contact-photo-wrap {
   flex-shrink: 0;
-  width: 250px;
+  width: 180px;
 }
 
 .contact-photo {
