@@ -16,6 +16,18 @@ const siteData = {
   // ── SECTIONS (rendered top-to-bottom in this order) ───────
   sections: [
 
+    // ── Artist Bio ──
+    {
+      id: "artist-bio",
+      type: "text",
+      heading: "Gayan Prageeth",
+      paragraphs: [
+        "Born in Ingiriya, Sri Lanka, Gayan Prageeth is a contemporary visual artist whose practice deeply interrogates social, historical, and political landscapes. He earned his Bachelor of Fine Arts with First Class Honors in Painting from the University of the Visual and Performing Arts in Colombo in 2009. Over the course of two decades, Prageeth has developed a distinct visual language that translates complex regional narratives into compelling conceptual art, positioning him as a prominent figure within Sri Lanka's contemporary art movement.",
+        "Prageeth's solo career reflects a rigorous, continuous engagement with socio-political themes and human perception. Through landmark solo exhibitions at premier spaces—such as Saskia Fernando Gallery (Elysium, Eyes only, Apperceiving 1983, Since 1983, Extravagance) and Paradise Road Galleries (Paradox)—his work critically examines historical turning points, spectacle, and cultural excess. Most recently, his 2026 solo showcase, Life is a circus at Cinnamon Life, highlights his evolving exploration of performance, absurdism, and collective memory.",
+        "Beyond Sri Lanka, Prageeth's work has resonated across the global stage, earning inclusion in major international fairs, biennials, and gallery exhibitions. His art has been featured at prominent international events including Art Dubai, the India Art Fair, and exhibitions across New York (Aicon Contemporary), Los Angeles (Baik Art Gallery), Beijing, Singapore, Bali, and the Maldives. Rooted in formal excellence and fueled by sharp inquiry, his portfolio continues to bridge local histories with universal human questions."
+      ]
+    },
+
     // ── Portrait ~0.80 ──
     {
       id: "row-portrait-1",
@@ -350,6 +362,59 @@ const siteData = {
       columns: 1,
       images: [
         { src: "assets/images/Elsiyum6.webp", alt: "", title: "Invitation to Hanuman II, 2023", details: "Acrylic on Canvas\n92 x 122 cm" }
+      ]
+    },
+
+    // ── Life is a Circus – Title ──
+    {
+      id: "life-is-a-circus-heading",
+      type: "text",
+      heading: "Life is a Circus"
+    },
+
+    // ── Life is a Circus – Square row 1 ──
+    {
+      id: "row-circus-1",
+      type: "image-grid",
+      columns: 3,
+      images: [
+        { src: "assets/images/LifeIsACircus1.jpeg", alt: "" },
+        { src: "assets/images/LifeIsACircus2.jpeg", alt: "" },
+        { src: "assets/images/LifeIsACircus3.jpeg", alt: "" }
+      ]
+    },
+
+    // ── Life is a Circus – Square row 2 ──
+    {
+      id: "row-circus-2",
+      type: "image-grid",
+      columns: 3,
+      images: [
+        { src: "assets/images/LifeIsACircus5.jpeg", alt: "" },
+        { src: "assets/images/LifeIsACircus6.jpeg", alt: "" },
+        { src: "assets/images/LifeIsACircus7.jpeg", alt: "" }
+      ]
+    },
+
+    // ── Life is a Circus – Portrait row ──
+    {
+      id: "row-circus-3",
+      type: "image-grid",
+      columns: 3,
+      images: [
+        { src: "assets/images/LifeIsACircus4.jpeg", alt: "" },
+        { src: "assets/images/LifeIsACircus9.jpeg", alt: "" },
+        { src: "assets/images/LifeIsACircus10.jpeg", alt: "" }
+      ]
+    },
+
+    // ── Life is a Circus – Square row 3 ──
+    {
+      id: "row-circus-4",
+      type: "image-grid",
+      columns: 3,
+      images: [
+        { src: "assets/images/LifeIsACircus8.jpeg", alt: "" }
       ]
     }
 
