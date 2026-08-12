@@ -378,9 +378,9 @@ const siteData = {
       type: "image-grid",
       columns: 3,
       images: [
-        { src: "assets/images/LifeIsACircus1.jpeg", alt: "" },
-        { src: "assets/images/LifeIsACircus2.jpeg", alt: "" },
-        { src: "assets/images/LifeIsACircus3.jpeg", alt: "" }
+        { src: "assets/images/LifeIsACircus1.jpeg", alt: "", title: "Life is a Circus XII, 2026", details: "Acrylic on canvas\n15 x 15 inches" },
+        { src: "assets/images/LifeIsACircus2.jpeg", alt: "", title: "Life is a Circus X, 2026", details: "Acrylic on canvas\n15 x 15 inches" },
+        { src: "assets/images/LifeIsACircus3.jpeg", alt: "", title: "Life is a Circus XV, 2026", details: "Acrylic on canvas\n15 x 15 inches" }
       ]
     },
 
@@ -390,9 +390,9 @@ const siteData = {
       type: "image-grid",
       columns: 3,
       images: [
-        { src: "assets/images/LifeIsACircus5.jpeg", alt: "" },
-        { src: "assets/images/LifeIsACircus6.jpeg", alt: "" },
-        { src: "assets/images/LifeIsACircus7.jpeg", alt: "" }
+        { src: "assets/images/LifeIsACircus5.jpeg", alt: "", title: "Life is a Circus XIV, 2026", details: "Acrylic on canvas\n15 x 15 inches" },
+        { src: "assets/images/LifeIsACircus6.jpeg", alt: "", title: "Life is a Circus VII, 2026", details: "Acrylic on canvas\n15 x 15 inches" },
+        { src: "assets/images/LifeIsACircus7.jpeg", alt: "", title: "Life is a Circus VI, 2026", details: "Acrylic on canvas\n15 x 15 inches" }
       ]
     },
 
@@ -402,9 +402,9 @@ const siteData = {
       type: "image-grid",
       columns: 3,
       images: [
-        { src: "assets/images/LifeIsACircus4.jpeg", alt: "" },
-        { src: "assets/images/LifeIsACircus9.jpeg", alt: "" },
-        { src: "assets/images/LifeIsACircus10.jpeg", alt: "" }
+        { src: "assets/images/LifeIsACircus4.jpeg", alt: "", title: "Inedible IXV, 2026", details: "Acrylic on canvas\n32 x 23.5 inches" },
+        { src: "assets/images/LifeIsACircus9.jpeg", alt: "", title: "Life is a Circus V, 2026", details: "Acrylic on canvas\n40 x 30 inches" },
+        { src: "assets/images/LifeIsACircus10.jpeg", alt: "", title: "Life is a Circus III, 2026", details: "Acrylic on canvas\n40 x 30 inches" }
       ]
     },
 
@@ -414,7 +414,7 @@ const siteData = {
       type: "image-grid",
       columns: 3,
       images: [
-        { src: "assets/images/LifeIsACircus8.jpeg", alt: "" }
+        { src: "assets/images/LifeIsACircus8.jpeg", alt: "", title: "Life is a Circus XI, 2026", details: "Acrylic on canvas\n15 x 15 inches" }
       ]
     },
 
@@ -427,7 +427,6 @@ const siteData = {
       imageAlt: "Gayan Prageeth",
       details: [
         { label: "Address :", value: "2/A, Karunasena Jayalath Mawatha, Pokunuwita, Horana, Sri Lanka" },
-        { label: "Born :", value: "05th November 1980 in Ingiriya" },
         { label: "E mail :", value: "gayanprageeth@yahoo.com", href: "mailto:gayanprageeth@yahoo.com" },
         { label: "Mobile :", value: "+94 77 948 3525", href: "tel:+94779483525" }
       ]
